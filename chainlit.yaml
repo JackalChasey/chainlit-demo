@@ -1,0 +1,28 @@
+chainlit:
+  # 应用和聊天机器人的名称
+  name: "ChatGPT模拟器"
+  # 应用和聊天机器人的描述
+  description: "基于Chainlit和OpenAI打造的类ChatGPT体验"
+  # 聊天机器人的头像
+  avatar: ""
+  # 页面加载时要选择的默认聊天配置文件
+  default_chat_profile: "default"
+  # 是否在UI中隐藏思考链(步骤)
+  hide_cot: false
+  # 是否允许用户上传文件
+  enable_file_upload: true
+  # 上传文件大小限制（MB）
+  max_file_size_mb: 10
+
+# 用户界面自定义
+ui:
+  # 顶部栏中显示的名称
+  name: "ChatGPT模拟器"
+  # 欢迎屏幕中显示的描述
+  description: "一个流式响应的聊天机器人体验"
+  # 应用的主题("light", "dark", 或 "system")
+  theme: "system"
+  # 自定义颜色
+  colors:
+    primary: "#2A9D8F"
+    secondary: "#264653" 
